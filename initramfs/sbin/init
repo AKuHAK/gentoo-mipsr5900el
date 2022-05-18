@@ -28,6 +28,7 @@ modprobe hid-generic
 
 grep machine </proc/cpuinfo | sed 's/[[:space:]]\+//'
 uname -a
+dmesg | grep rom
 
 sh
 
